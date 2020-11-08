@@ -41,8 +41,14 @@ table {
 }
 
 .slider {
+	padding-bottom: 12px;
+
+
+
+
 }
 .balazo {
+
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -66,20 +72,21 @@ h1 {
 }
 
 .slider {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../imgs/4724.jpg);
-    background-position: center 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
+	width: 100%;
+	background-image: url(../imgs/4724.jpg);
+	background-position: center 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 .historia {
 	width: 100%;
-	height: 100vh;
+	height: 120vh;
 	background-image: url(../imgs/header-plastic-oceanography.jpg);
 	background-position: center 0%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding-bottom: 32px;
 }
 .pp {
 	width: 100%;
@@ -97,6 +104,13 @@ h1 {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.caracteristicas h1 {
+	text-align: left;
+	font-size: 21px;
+
+
+}
+
 .quiensomos {
 	width: 100%;
 	height: 100vh;
@@ -114,13 +128,16 @@ h1 {
 	background-repeat: no-repeat;
 }
 .balazo {
-	width: 70%;
-	margin-left: 32px;
+	width: 80%;
+	margin-left: 16px;
+	padding-right: 32px;
 }
 .balazo p {
 	color: #FFFFFF;
 	margin-bottom: 16px;
 	margin-top: 16px;
+	font-size: 14px;
+	line-height: 21px;
 }
 .boton {
     width: 140px;
@@ -231,15 +248,14 @@ h1 {
 }
 .caja {
 	background-color: rgba(236,69,72,0.76);
-	width: 50vw;
-	margin-left: 50px;
-	margin-bottom: 50px;
-	margin-right: 50px;
-	padding-top: 50px;
-	padding-left: 20px;
+	width: 80vw;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	margin-right: 12px;
+	padding-top: 32px;
 	top: 50px;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-bottom: 25px;
 	border: 5px solid rgba(0,0,0,1.00);
 	border-radius: 25px;
@@ -257,15 +273,17 @@ footer {
 	padding-bottom: 32px;
 	padding-left: 32px;
 	color: #FFFFFF;
+	height: 100vh;
 }
 .col-01 {
-	width: 30%;
-	float: left;
+	width: 100%;
+	margin-top: 30%;
 }
 
 
 footer  h1 {
 	font-size: 22px;
+	display: none;
 }
 footer ul {
 	margin-top: 32px;
@@ -292,9 +310,7 @@ footer li {
 }
 
 .col-02 {
-	margin-left: 32px;
-	width: 25%;
-	float: left;
+	width: 100%;
 
 }
 .redes {
@@ -303,6 +319,48 @@ footer li {
 	background-size: 50px auto;
 	background-repeat: no-repeat;
 	margin-top: 32px;
-	margin-left: 16px;
 	display: inline-block;
+	margin-right: 32px;
+}
+
+@media (min-width: 768px){
+footer {
+	height: 100%;
+}
+footer h1 {
+	display: block;
+}
+.col-01 {
+	width: 30%;
+	margin-top: 0px;
+	float: left;
+}
+.col-02 {
+	width: 30%;
+	float: left;
+	padding-top: 0px;
+	margin-left: 32px;
+}
+.balazo {
+	width: 80%;
+}
+.balazo p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.caja {
+	width: 60%;
+}
+.caja {
+	margin-left: 32px;
+	padding-left: 16px;
+}
+
+
+
+
+
+
+
 }
