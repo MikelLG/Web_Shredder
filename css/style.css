@@ -63,7 +63,6 @@ body {
     flex-direction: column;
 }
 .menu li {
-    border-top: 2px solid #FFFFFF;
     height: 50px;
 }
 .menu li a {
@@ -76,6 +75,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
+    border-top: 2px solid rgba(255,255,255,1.00);
 }
 .menu li a:hover {
     color: #04527C;
@@ -420,5 +420,34 @@ footer h1 {
 .logo {
     left: 32px;
 }
+header label {
+    display: none;
+}
+.menu {
+    position: absolute;
+    background-color: rgba(0,0,0,0.00);
+    width: 95%;
+    margin-right: 0px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+.menu li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-top-style: none;
+}
+
+
+
+
 
 }
